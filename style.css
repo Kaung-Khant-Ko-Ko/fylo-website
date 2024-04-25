@@ -1,0 +1,277 @@
+body {
+  margin: 0px;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: hsl(243, 87%, 12%);
+}
+
+.hero-section {
+  background-color: white;
+  padding: 75px;
+}
+
+.section-1 {
+  background-image: url("./images/bg-curve-desktop.svg"),
+    linear-gradient(
+      180deg,
+      white 0px,
+      white 10%,
+      hsl(240, 75%, 98%) 11%,
+      hsl(240, 75%, 98%) 100%
+    );
+  background-repeat: no-repeat;
+  padding: 75px;
+}
+
+.section-2 {
+  background-color: hsl(238, 22%, 44%);
+  padding: 75px;
+}
+
+.footer-section {
+  background-color: hsl(243, 87%, 12%);
+  padding: 75px;
+}
+
+.nav-bar {
+  margin: 10px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-1,
+.img-4 {
+  width: 166px;
+  height: 49px;
+}
+
+.nav {
+  width: auto;
+  display: flex;
+  gap: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav > p:hover {
+  color: hsl(224, 93%, 58%);
+  cursor: pointer;
+}
+
+.hero-content {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.illu-1,
+.illu-2 {
+  width: 100%;
+}
+
+.btn-gp-1 {
+  width: 90%;
+  height: 45px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+::placeholder {
+  color: hsl(0, 0%, 75%);
+  padding-left: 5%;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  border: 0px;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.btn:hover {
+  background-color: hsla(224, 93%, 58%, 75%);
+  cursor: pointer;
+}
+
+.sect-1-content {
+  padding-top: 50px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.sect-1-texts {
+  display: grid;
+  gap: 20px;
+  grid-template-rows: repeat(3, auto);
+}
+
+.sect-1-desc {
+  width: 80%;
+  margin: 0px 0px 30px 0px;
+}
+
+.btn-2 {
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  color: hsl(170, 45%, 43%);
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-2:hover {
+  color: hsla(170, 45%, 43%, 75%);
+  cursor: pointer;
+}
+
+.btn-2 > p {
+  margin: 0px;
+}
+
+.img-2 {
+  width: 16px;
+  height: 16px;
+}
+
+.card {
+  width: 50%;
+  padding: 30px 40px 40px 40px;
+  background-color: white;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.user-info {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 30px auto;
+  align-items: center;
+}
+
+.user {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.user > p {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+.user-name {
+  font-weight: 700;
+}
+
+.user-status {
+  font-weight: 400;
+}
+
+.img-3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.sect-2-content {
+  display: grid;
+  gap: 20%;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.sect-2-texts {
+  color: white;
+  line-height: 25px;
+}
+
+.btn-gp-2 {
+  height: 110px;
+  display: grid;
+  gap: 10px;
+}
+
+.btn-3 {
+  width: 45%;
+}
+
+.footer-sect-content {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 2fr;
+}
+
+.img-4 {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(327deg)
+    brightness(99%) contrast(109%);
+}
+
+.footer-row {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+span {
+  color: white;
+}
+
+.footer-row > li {
+  height: 36px;
+}
+
+.ph-icon,
+.em-icon {
+  padding-right: 10px;
+}
+
+.footer-col-4 {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon:hover {
+  border-color: hsl(224, 93%, 58%);
+  filter: invert(33%) sepia(74%) saturate(806%) hue-rotate(193deg)
+    brightness(106%) contrast(125%);
+}
+
+.icon > * {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(327deg)
+    brightness(99%) contrast(109%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: hsl(224, 93%, 58%);
+}

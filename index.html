@@ -12,6 +12,22 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
   <body>
@@ -41,8 +57,8 @@
               id="email-1"
               placeholder="Enter your email..."
             />
+            <button type="button" class="btn">Get Started</button>
           </div>
-          <button type="button" class="btn-1">Get Started</button>
         </div>
         <img
           src="./images/illustration-1.svg"
@@ -55,17 +71,23 @@
       <div class="sect-1-content">
         <div class="sect-1-texts">
           <h2 class="heading-2">Stay productive, wherever you are</h2>
-          <p>
-            Never let location be an issue when accessing your files. Fylo has
-            you covered for all of your file storage needs.
-          </p>
-          <p>
-            Securely share files and folders with friends, family and colleagues
-            for live collaboration. No email attachments required!
-          </p>
-          <div class="btn-2">
-            <p>See how Fylo works</p>
-            <img src="./images/icon-arrow.svg" alt="Arrow icon" />
+          <div class="sect-1-desc">
+            <p>
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p>
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <div class="btn-2">
+              <p>See how Fylo works</p>
+              <img
+                src="./images/icon-arrow.svg"
+                alt="Arrow icon"
+                class="img-2"
+              />
+            </div>
           </div>
           <div class="card">
             <img src="./images/icon-quotes.svg" alt="Quotes icon" />
@@ -75,10 +97,14 @@
               collaboration machine.
             </p>
             <div class="user-info">
-              <img src="./images/avatar-testimonial.jpg" alt="User image" />
+              <img
+                src="./images/avatar-testimonial.jpg"
+                alt="User image"
+                class="img-3"
+              />
               <div class="user">
-                <p>Kyle Burton</p>
-                <p>Founder & CEO, Huddle</p>
+                <p class="user-name">Kyle Burton</p>
+                <p class="user-status">Founder & CEO, Huddle</p>
               </div>
             </div>
           </div>
@@ -107,60 +133,74 @@
             id="email-2"
             placeholder="email@example.com"
           />
-          <button type="button" class="btn-2">Get Started For Free</button>
+          <button type="button" class="btn btn-3">Get Started For Free</button>
         </div>
       </div>
     </section>
     <section class="footer-section">
-      <img src="./images/logo.svg" alt="Logo" class="img-2" />
-      <div class="footer-col-1">
-        <div class="footer-row">
-          <img src="./images/icon-phone.svg" alt="Phone icon" class="ph-icon" />
-          <p>Phone: +1-543-123-4567</p>
+      <img src="./images/logo.svg" alt="Logo" class="img-4" />
+      <div class="footer-sect-content">
+        <div class="footer-col-1">
+          <ul class="footer-row">
+            <li>
+              <img
+                src="./images/icon-phone.svg"
+                alt="Phone icon"
+                class="ph-icon"
+              />
+              <span>Phone: +1-543-123-4567</span>
+            </li>
+            <li>
+              <img
+                src="./images/icon-email.svg"
+                alt="Email icon"
+                class="em-icon"
+              />
+              <span>example@fylo.com</span>
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
-        <div class="footer-row">
-          <img src="./images/icon-email.svg" alt="Email icon" class="em-icon" />
-          <p>example@fylo.com</p>
+        <div class="footer-col-2">
+          <ul class="footer-row">
+            <li>
+              <a href="" class="footer-link">About Us</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Jobs</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Press</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Blog</a>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="footer-col-2">
-        <ul class="footer-row">
-          <li>
-            <a href="" class="footer-link">About Us</a>
-          </li>
-          <li>
-            <a href="" class="footer-link">Jobs</a>
-          </li>
-          <li>
-            <a href="" class="footer-link">Press</a>
-          </li>
-          <li>
-            <a href="" class="footer-link">Blog</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-col-3">
-        <ul class="footer-row">
-          <li>
-            <a href="" class="footer-link">Contact Us</a>
-          </li>
-          <li>
-            <a href="" class="footer-link">Terms</a>
-          </li>
-          <li>
-            <a href="" class="footer-link">Privacy</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-col-4">
-        <div class="icon">
-          <img src="./images/facebook.svg" alt="Facebook icon" />
+        <div class="footer-col-3">
+          <ul class="footer-row">
+            <li>
+              <a href="" class="footer-link">Contact Us</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Terms</a>
+            </li>
+            <li>
+              <a href="" class="footer-link">Privacy</a>
+            </li>
+          </ul>
         </div>
-        <div class="icon">
-          <img src="./images/twitter.svg" alt="Twitter icon" />
-        </div>
-        <div class="icon">
-          <img src="./images/instagram.svg" alt="Instagram icon" />
+        <div class="footer-col-4">
+          <div class="icon">
+            <img src="./images/facebook.svg" alt="Facebook icon" />
+          </div>
+          <div class="icon">
+            <img src="./images/twitter.svg" alt="Twitter icon" />
+          </div>
+          <div class="icon">
+            <img src="./images/instagram.svg" alt="Instagram icon" />
+          </div>
         </div>
       </div>
     </section>
