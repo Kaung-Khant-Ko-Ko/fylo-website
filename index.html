@@ -57,8 +57,9 @@
               id="email-1"
               placeholder="Enter your email..."
             />
-            <button type="button" class="btn">Get Started</button>
+            <button type="button" class="btn btn-1">Get Started</button>
           </div>
+          <p id="warning-msg-1" class="hidden">Please check your email</p>
         </div>
         <img
           src="./images/illustration-1.svg"
@@ -127,12 +128,15 @@
           </p>
         </div>
         <div class="btn-gp-2">
-          <input
-            type="email"
-            name="user-email-2"
-            id="email-2"
-            placeholder="email@example.com"
-          />
+          <div>
+            <input
+              type="email"
+              name="user-email-2"
+              id="email-2"
+              placeholder="email@example.com"
+            />
+            <p id="warning-msg-2" class="hidden">Please check your email</p>
+          </div>
           <button type="button" class="btn btn-3">Get Started For Free</button>
         </div>
       </div>
@@ -202,5 +206,6 @@
         </div>
       </div>
     </section>
+    <script src="./index.js"></script>
   </body>
 </html>

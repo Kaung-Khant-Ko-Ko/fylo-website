@@ -87,9 +87,44 @@ h2 {
   grid-template-rows: 1fr;
 }
 
+#email-1,
+#email-2 {
+  padding-left: 5%;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.error {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
+#warning-msg-1 {
+  font-size: 12px;
+  margin-top: 10px;
+  color: red;
+}
+
+#warning-msg-2 {
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 5px;
+  color: red;
+}
+
+#email-2 {
+  width: 100%;
+  height: 45px;
+}
+
 ::placeholder {
   color: hsl(0, 0%, 75%);
-  padding-left: 5%;
 }
 
 .btn {
@@ -209,6 +244,7 @@ h2 {
 
 .btn-3 {
   width: 45%;
+  height: 45px;
 }
 
 .footer-sect-content {
