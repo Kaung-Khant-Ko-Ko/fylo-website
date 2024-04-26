@@ -275,3 +275,79 @@ a {
 a:hover {
   color: hsl(224, 93%, 58%);
 }
+
+@media (max-width: 750px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hero-texts {
+    order: 1;
+  }
+
+  .btn-gp-1 {
+    width: 100%;
+    height: 190px;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .btn-gp-1 > * {
+    font-size: 21px;
+  }
+
+  .section-1 {
+    background-image: url("./images/bg-curve-mobile.svg"),
+      linear-gradient(
+        180deg,
+        white 0px,
+        white 5%,
+        hsl(240, 75%, 98%) 6%,
+        hsl(240, 75%, 98%) 100%
+      );
+    background-size: 100%;
+  }
+
+  .sect-1-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .sect-1-texts {
+    order: 1;
+  }
+
+  .sect-1-desc {
+    width: 100%;
+  }
+
+  .card {
+    justify-self: center;
+  }
+
+  .sect-2-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+  }
+
+  .btn-gp-2 {
+    width: 80%;
+    justify-self: center;
+  }
+
+  .btn-3 {
+    width: 100%;
+  }
+
+  .footer-sect-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-col-4 {
+    justify-self: center;
+  }
+}
